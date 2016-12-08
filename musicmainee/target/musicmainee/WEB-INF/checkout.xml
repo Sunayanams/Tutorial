@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- <flow xmlns="http://www.springframework.org/schema/webflow" -->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/webflow -->
+<!--                           http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"> -->
+                          
+<!--      <var name="shippmentadd" class="com.niit.musicmainee.entity.Shippmentadd"/>  -->
+<!--       <var name="corder" class="com.niit.musicmainee.entity.Corder"/> -->
+<!--       <var name="orderWebflow" class="com.niit.musicmainee.webflow.OrderWebflow"/> -->
+                            
+<!-- Executed when webFlow is triggered --> 
+<!-- 	<on-start> -->
+<!-- 	  <evaluate expression="orderWebflow.initFlow()" result="flowScope.corder"/> -->
+<!-- 	</on-start> -->
+ 
+	 <!-- if not specified the first view state is the starting state -->
+<!-- 	<view-state id="flowExecutor" view="shippmentadd" model="shippmentadd"> -->
+<!-- 	   <transition on="submitShippmentadd" to="index"/> -->
+<!-- 	</view-state> -->
+ 
+<!-- 	<action-state id="index"> -->
+<!-- 		<evaluate expression="corderWebFlow.addShippmentAddress(flowScope.corder,shippmentadd)"></evaluate> -->
+<!-- 		<transition on="finalHome" to="shippmentadd" /> -->
+<!-- 	</action-state> -->
+	
+<!--     <end-state id="toHome" view="externalRedirect:contextRelative:/" /> -->
+ 
+<!-- 	<view-state id="confirmDetails" view="confirmDetails" model="flowScope.userBean"> -->
+<!-- 		<transition on="edit" to="start" /> -->
+<!-- 		<transition on="submit" to="welcome" /> -->
+<!-- 	</view-state> -->
+ 
+<!-- 	<end-state id="welcome" view="welcome" /> -->
+<!-- 	<end-state id="toException" view="externalRedirect:contextRelative:exception.jsp" /> -->
+ 
+	<!-- these events are available in every state -->
+<!-- 	<global-transitions> -->
+<!-- 		<transition on="cancel" to="toHome" /> -->
+<!-- 	</global-transitions> -->
+<!-- </flow> -->
